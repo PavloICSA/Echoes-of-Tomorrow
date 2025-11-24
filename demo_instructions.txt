@@ -1,0 +1,199 @@
+ECHOES OF TOMORROW - DEMO & TRAILER RECORDING GUIDE
+====================================================
+
+This guide explains how to record a compelling 15–30 second trailer showcasing the game's core mechanics and visual appeal.
+
+---
+
+SETUP
+-----
+
+1. Open the game in a modern web browser (Chrome, Firefox, Safari, or Edge)
+2. Open index.html or run: python -m http.server 8000
+3. Set quality mode to HIGH for maximum visual impact
+4. Use a screen recording tool:
+   - macOS: QuickTime Player (built-in)
+   - Windows: OBS Studio (free, open-source)
+   - Linux: OBS Studio or SimpleScreenRecorder
+   - Web: ScreenFlow, Loom, or similar
+
+---
+
+RECOMMENDED CARD SEQUENCE (15–30 seconds)
+------------------------------------------
+
+This sequence demonstrates strategic depth, visual variety, and the game's core mechanics:
+
+Turn 1: Play a POSITIVE card (e.g., "Renewable Energy")
+  - Effect: Ecology +15, Stability +5
+  - Visual: Green waveforms intensify, stability improves
+  - Duration: ~2 seconds
+
+Turn 2: Play a MIXED-EFFECT card (e.g., "Tech Innovation")
+  - Effect: Innovation +12, Ecology -8
+  - Visual: Blue fractals emerge, green waveforms recede slightly
+  - Duration: ~2 seconds
+
+Turn 3: Play another POSITIVE card (e.g., "Global Education")
+  - Effect: Cohesion +10, Innovation +8
+  - Duration: ~2 seconds
+
+Turn 4: Play a RISKY card (e.g., "Industrial Expansion")
+  - Effect: Innovation +15, Stability -10
+  - Visual: Fractals spike, red instability appears
+  - Duration: ~2 seconds
+
+Turn 5–10: Continue playing cards to reach VICTORY
+  - Mix positive and mixed-effect cards
+  - Avoid negative cards to maintain momentum
+  - Aim for all variables ≥80
+  - Duration: ~10–15 seconds
+
+Victory Animation:
+  - Visualization morphs to balanced green-blue symmetry
+  - Victory screen appears with "Golden Future" message
+  - Duration: ~3 seconds
+
+---
+
+ALTERNATIVE SEQUENCE: COLLAPSE DEMO (10–15 seconds)
+-----------------------------------------------------
+
+If you want to showcase the collapse mechanic:
+
+Turn 1–3: Play NEGATIVE cards (e.g., "Economic Crisis", "Environmental Disaster")
+  - Effects: Reduce Ecology, Cohesion, or Stability
+  - Visual: Red noise spikes increase, patterns destabilize
+  - Duration: ~6 seconds
+
+Turn 4: Play a card that pushes any variable to ≤5
+  - Visual: Immediate transition to red static and glitch effects
+  - Collapse screen appears
+  - Duration: ~2 seconds
+
+---
+
+RECORDING TIPS
+--------------
+
+1. **Frame Rate**: Record at 60 FPS for smooth playback
+2. **Resolution**: 1920x1080 (1080p) or 1280x720 (720p) for web distribution
+3. **Audio**: 
+   - Option A: Mute the game (M key) and add background music in post-production
+   - Option B: Keep game audio for procedural ambient tone
+4. **Pacing**: Play at normal speed; avoid fast-forwarding
+5. **Lighting**: Ensure good screen brightness for visibility
+6. **Cursor**: Hide mouse cursor if possible (most recording tools have this option)
+
+---
+
+POST-PRODUCTION SUGGESTIONS
+----------------------------
+
+1. **Title Card** (2–3 seconds):
+   - Text: "Echoes of Tomorrow"
+   - Subtitle: "A Strategy Game About Shaping Civilization"
+   - Background: Fade in from black with game audio or music
+
+2. **Gameplay Footage** (12–20 seconds):
+   - Show card selection and variable changes
+   - Highlight visual transitions (green waveforms, blue fractals, red instability)
+   - Include both victory and collapse sequences if possible
+
+3. **Text Overlays** (optional):
+   - "Guide four civilization variables toward victory"
+   - "Make strategic choices with lasting consequences"
+   - "Reach victory: All variables ≥80 for 5 consecutive turns"
+   - "Avoid collapse: Keep all variables >5"
+   - "Procedurally-generated visuals, no external assets"
+
+4. **End Card** (2–3 seconds):
+   - Text: "Play Now" or "Available Online"
+   - Link: echoes-of-tomorrow.itch.io or your hosting URL
+   - Background: Fade to black with game audio
+
+5. **Music**:
+   - Royalty-free ambient or electronic music (e.g., from Incompetech, YouTube Audio Library)
+   - Fade in at start, fade out at end
+   - Keep volume lower than game audio if both are used
+
+6. **Transitions**:
+   - Use simple cuts or fade transitions between sections
+   - Avoid excessive effects; let the game visuals speak for themselves
+
+---
+
+DISTRIBUTION PLATFORMS
+-----------------------
+
+1. **itch.io**:
+   - Upload as HTML5 game
+   - Add trailer video to game page
+   - Include README and demo_instructions.txt
+
+2. **YouTube**:
+   - Upload trailer as unlisted or public video
+   - Add description with game link and controls
+   - Use tags: "indie game", "strategy", "web game", "procedural"
+
+3. **Twitter/X**:
+   - Post 15–30 second clip with game link
+   - Use hashtags: #indiegame #gamedev #webgame
+
+4. **Reddit**:
+   - Post to r/gamedev, r/indiegames, r/webgames
+   - Include link to playable version
+
+---
+
+EXAMPLE SCRIPT
+--------------
+
+"Echoes of Tomorrow is a strategy game where you shape civilization's future.
+
+Guide four variables—Ecology, Cohesion, Innovation, and Stability—toward victory.
+
+Each turn, select one of three Echo Cards to influence civilization's trajectory.
+
+Make strategic choices with lasting consequences. Reach victory by maintaining all variables above 80 for five consecutive turns.
+
+Or face collapse if any variable drops too low.
+
+The entire experience is powered by procedurally-generated visuals that evolve in real-time.
+
+Play Echoes of Tomorrow today. No external assets. No build tools. Just pure strategy and procedural beauty."
+
+---
+
+QUICK CHECKLIST
+----------------
+
+Before recording:
+  [ ] Game loads without errors
+  [ ] Quality mode set to HIGH
+  [ ] Audio muted or configured
+  [ ] Screen recording tool ready
+  [ ] Resolution set to 1920x1080 or 1280x720
+  [ ] Frame rate set to 60 FPS
+
+During recording:
+  [ ] Play cards at a steady pace (not too fast)
+  [ ] Show both positive and negative effects
+  [ ] Reach victory or collapse state
+  [ ] Record for 15–30 seconds total
+
+After recording:
+  [ ] Export video in MP4 or WebM format
+  [ ] Add title card and end card
+  [ ] Add background music (optional)
+  [ ] Add text overlays (optional)
+  [ ] Upload to itch.io, YouTube, or social media
+
+---
+
+QUESTIONS?
+----------
+
+For more information, see README.md or visit the game's source repository.
+
+Enjoy creating your trailer!

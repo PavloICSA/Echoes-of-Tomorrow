@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echoes of Tomorrow</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top Bar -->
+  <div id="topBar" class="top-bar">
+    <div class="top-bar-left">
+      <h1>Echoes of Tomorrow</h1>
+    </div>
+    <div class="top-bar-right">
+      <span id="turnCounter" class="turn-counter" role="status" aria-live="polite">Turn: 1</span>
+      <button id="qualityToggle" class="btn btn-secondary" title="Toggle quality mode (Low/Medium/High)" aria-label="Toggle quality mode">Quality: Medium</button>
+      <button id="screenshotBtn" class="btn btn-secondary" title="Screenshot (S)" aria-label="Take screenshot">Screenshot</button>
+      <button id="muteBtn" class="btn btn-secondary" title="Mute audio (M)" aria-label="Toggle mute">🔊</button>
+      <button id="helpBtn" class="btn btn-secondary" title="Show help (?)">?</button>
+      <button id="restartBtn" class="btn btn-primary" title="Restart (R)" aria-label="Restart game">Restart</button>
+    </div>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Left Panel: Card Panel -->
+    <div class="left-panel" role="region" aria-label="Card selection panel">
+      <div id="cardPanel" class="card-panel" role="group" aria-label="Available Echo Cards">
+        <!-- Cards will be rendered here -->
+      </div>
+      <div id="systemMessage" class="system-message" role="status" aria-live="polite" aria-label="Game feedback"></div>
+    </div>
+
+    <!-- Right Panel: Visualization -->
+    <div class="right-panel">
+      <div id="visualization" class="visualization">
+        <!-- Three.js canvas will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Bar: Metrics -->
+  <div id="metricsBar" class="metrics-bar" role="region" aria-label="Civilization variables">
+    <div class="metric">
+      <label for="ecologyBar">Ecology</label>
+      <div class="metric-bar">
+        <div id="ecologyBar" class="metric-fill ecology" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-label="Ecology level"></div>
+      </div>
+      <span id="ecologyValue" class="metric-value" aria-label="Ecology value">50</span>
+    </div>
+    <div class="metric">
+      <label for="cohesionBar">Cohesion</label>
+      <div class="metric-bar">
+        <div id="cohesionBar" class="metric-fill cohesion" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-label="Cohesion level"></div>
+      </div>
+      <span id="cohesionValue" class="metric-value" aria-label="Cohesion value">50</span>
+    </div>
+    <div class="metric">
+      <label for="innovationBar">Innovation</label>
+      <div class="metric-bar">
+        <div id="innovationBar" class="metric-fill innovation" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-label="Innovation level"></div>
+      </div>
+      <span id="innovationValue" class="metric-value" aria-label="Innovation value">50</span>
+    </div>
+    <div class="metric">
+      <label for="stabilityBar">Stability</label>
+      <div class="metric-bar">
+        <div id="stabilityBar" class="metric-fill stability" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-label="Stability level"></div>
+      </div>
+      <span id="stabilityValue" class="metric-value" aria-label="Stability value">50</span>
+    </div>
+  </div>
+
+  <!-- Victory Screen (hidden by default) -->
+  <div id="victoryScreen" class="modal hidden">
+    <div class="modal-content">
+      <h2>🌟 Golden Future Achieved! 🌟</h2>
+      <p>All civilization variables have reached harmony!</p>
+      <button id="victoryRestartBtn" class="btn btn-primary">Play Again</button>
+    </div>
+  </div>
+
+  <!-- Game Over Screen (hidden by default) -->
+  <div id="gameOverScreen" class="modal hidden">
+    <div class="modal-content">
+      <h2>⚠️ Civilization Collapsed ⚠️</h2>
+      <p>One or more variables fell below critical threshold.</p>
+      <button id="gameOverRestartBtn" class="btn btn-primary">Try Again</button>
+    </div>
+  </div>
+
+  <!-- Help Screen (hidden by default) -->
+  <div id="helpScreen" class="modal hidden">
+    <div class="modal-content help-modal">
+      <h2>Controls & Help</h2>
+      <div class="help-content">
+        <div class="help-section">
+          <h3>Card Selection</h3>
+          <ul>
+            <li><kbd>1</kbd> - Select first card</li>
+            <li><kbd>2</kbd> - Select second card</li>
+            <li><kbd>3</kbd> - Select third card</li>
+            <li><strong>Click</strong> - Select card with mouse</li>
+          </ul>
+        </div>
+        <div class="help-section">
+          <h3>Game Controls</h3>
+          <ul>
+            <li><kbd>R</kbd> - Restart game</li>
+            <li><kbd>S</kbd> - Take screenshot</li>
+            <li><kbd>M</kbd> - Toggle mute</li>
+            <li><kbd>?</kbd> - Show this help</li>
+          </ul>
+        </div>
+        <div class="help-section">
+          <h3>Objective</h3>
+          <p>Guide civilization to victory by raising all four variables (Ecology, Cohesion, Innovation, Stability) to 80 or higher for 5 consecutive turns. Avoid collapse by keeping all variables above 5.</p>
+        </div>
+      </div>
+      <button id="helpCloseBtn" class="btn btn-primary">Close</button>
+    </div>
+  </div>
+
+  <!-- Three.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Game Scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/sim.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/visuals.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

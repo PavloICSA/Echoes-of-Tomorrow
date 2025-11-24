@@ -1,0 +1,261 @@
+[
+  {
+    "id": "renewable-energy",
+    "title": "Renewable Energy",
+    "desc": "Invest in solar and wind power",
+    "effects": { "ecology": 8, "cohesion": 2, "innovation": 5, "stability": 3 },
+    "variance": 2
+  },
+  {
+    "id": "education",
+    "title": "Global Education",
+    "desc": "Expand access to learning",
+    "effects": { "ecology": 2, "cohesion": 6, "innovation": 8, "stability": 4 },
+    "variance": 2
+  },
+  {
+    "id": "conflict-resolution",
+    "title": "Peace Talks",
+    "desc": "Mediate international disputes",
+    "effects": { "ecology": 1, "cohesion": 8, "innovation": 2, "stability": 6 },
+    "variance": 2
+  },
+  {
+    "id": "tech-innovation",
+    "title": "Tech Breakthrough",
+    "desc": "Accelerate technological progress",
+    "effects": { "ecology": -2, "cohesion": 3, "innovation": 10, "stability": 2 },
+    "variance": 2
+  },
+  {
+    "id": "forest-conservation",
+    "title": "Forest Protection",
+    "desc": "Preserve natural ecosystems",
+    "effects": { "ecology": 10, "cohesion": 1, "innovation": 1, "stability": 2 },
+    "variance": 2
+  },
+  {
+    "id": "cultural-exchange",
+    "title": "Cultural Exchange",
+    "desc": "Promote cross-cultural understanding",
+    "effects": { "ecology": 1, "cohesion": 7, "innovation": 4, "stability": 3 },
+    "variance": 2
+  },
+  {
+    "id": "economic-reform",
+    "title": "Economic Reform",
+    "desc": "Redistribute wealth fairly",
+    "effects": { "ecology": 2, "cohesion": 5, "innovation": 3, "stability": -3 },
+    "variance": 2
+  },
+  {
+    "id": "pandemic-response",
+    "title": "Health Initiative",
+    "desc": "Improve global health systems",
+    "effects": { "ecology": 1, "cohesion": 4, "innovation": 3, "stability": 5 },
+    "variance": 2
+  },
+  {
+    "id": "climate-action",
+    "title": "Climate Action",
+    "desc": "Combat climate change",
+    "effects": { "ecology": 9, "cohesion": 3, "innovation": 4, "stability": 1 },
+    "variance": 2
+  },
+  {
+    "id": "war",
+    "title": "Military Conflict",
+    "desc": "Armed conflict erupts",
+    "effects": { "ecology": -5, "cohesion": -8, "innovation": 2, "stability": -6 },
+    "variance": 2
+  },
+  {
+    "id": "space-exploration",
+    "title": "Space Exploration",
+    "desc": "Launch ambitious space programs",
+    "effects": { "ecology": -1, "cohesion": 4, "innovation": 9, "stability": 2 },
+    "variance": 2
+  },
+  {
+    "id": "universal-healthcare",
+    "title": "Universal Healthcare",
+    "desc": "Provide healthcare for all",
+    "effects": { "ecology": 1, "cohesion": 7, "innovation": 2, "stability": 6 },
+    "variance": 2
+  },
+  {
+    "id": "agricultural-reform",
+    "title": "Agricultural Reform",
+    "desc": "Modernize farming practices",
+    "effects": { "ecology": 6, "cohesion": 3, "innovation": 5, "stability": 2 },
+    "variance": 2
+  },
+  {
+    "id": "pandemic",
+    "title": "Disease Outbreak",
+    "desc": "Global pandemic spreads",
+    "effects": { "ecology": 1, "cohesion": -6, "innovation": -2, "stability": -5 },
+    "variance": 2
+  },
+  {
+    "id": "ai-revolution",
+    "title": "AI Revolution",
+    "desc": "Artificial intelligence advances",
+    "effects": { "ecology": -3, "cohesion": 2, "innovation": 12, "stability": -2 },
+    "variance": 2
+  },
+  {
+    "id": "ocean-cleanup",
+    "title": "Ocean Cleanup",
+    "desc": "Remove plastic from oceans",
+    "effects": { "ecology": 8, "cohesion": 2, "innovation": 3, "stability": 1 },
+    "variance": 2
+  },
+  {
+    "id": "refugee-crisis",
+    "title": "Refugee Crisis",
+    "desc": "Mass migration and displacement",
+    "effects": { "ecology": -2, "cohesion": -5, "innovation": 1, "stability": -4 },
+    "variance": 2
+  },
+  {
+    "id": "renewable-grid",
+    "title": "Smart Grid",
+    "desc": "Build intelligent energy networks",
+    "effects": { "ecology": 7, "cohesion": 4, "innovation": 6, "stability": 3 },
+    "variance": 2
+  },
+  {
+    "id": "cultural-renaissance",
+    "title": "Cultural Renaissance",
+    "desc": "Flourishing of arts and culture",
+    "effects": { "ecology": 2, "cohesion": 8, "innovation": 5, "stability": 4 },
+    "variance": 2
+  },
+  {
+    "id": "economic-collapse",
+    "title": "Economic Crisis",
+    "desc": "Market crash and recession",
+    "effects": { "ecology": 1, "cohesion": -7, "innovation": -3, "stability": -8 },
+    "variance": 2
+  },
+  {
+    "id": "biodiversity-restoration",
+    "title": "Biodiversity Restoration",
+    "desc": "Restore endangered species",
+    "effects": { "ecology": 10, "cohesion": 2, "innovation": 2, "stability": 1 },
+    "variance": 2
+  },
+  {
+    "id": "digital-divide",
+    "title": "Digital Divide",
+    "desc": "Technology inequality widens",
+    "effects": { "ecology": -1, "cohesion": -4, "innovation": 3, "stability": -3 },
+    "variance": 2
+  },
+  {
+    "id": "renewable-transition",
+    "title": "Energy Transition",
+    "desc": "Shift to renewable sources",
+    "effects": { "ecology": 9, "cohesion": 3, "innovation": 5, "stability": 2 },
+    "variance": 2
+  },
+  {
+    "id": "social-unrest",
+    "title": "Social Unrest",
+    "desc": "Civil unrest and protests",
+    "effects": { "ecology": -1, "cohesion": -8, "innovation": 2, "stability": -7 },
+    "variance": 2
+  },
+  {
+    "id": "scientific-breakthrough",
+    "title": "Scientific Breakthrough",
+    "desc": "Major scientific discovery",
+    "effects": { "ecology": 2, "cohesion": 3, "innovation": 10, "stability": 3 },
+    "variance": 2
+  },
+  {
+    "id": "water-scarcity",
+    "title": "Water Crisis",
+    "desc": "Freshwater becomes scarce",
+    "effects": { "ecology": -8, "cohesion": -4, "innovation": 1, "stability": -5 },
+    "variance": 2
+  },
+  {
+    "id": "global-cooperation",
+    "title": "Global Cooperation",
+    "desc": "Nations unite for common goals",
+    "effects": { "ecology": 5, "cohesion": 9, "innovation": 4, "stability": 6 },
+    "variance": 2
+  },
+  {
+    "id": "natural-disaster",
+    "title": "Natural Disaster",
+    "desc": "Earthquake or hurricane strikes",
+    "effects": { "ecology": -6, "cohesion": -3, "innovation": -1, "stability": -7 },
+    "variance": 2
+  },
+  {
+    "id": "youth-movement",
+    "title": "Youth Movement",
+    "desc": "Young people drive change",
+    "effects": { "ecology": 6, "cohesion": 5, "innovation": 7, "stability": 2 },
+    "variance": 2
+  },
+  {
+    "id": "corporate-greed",
+    "title": "Corporate Greed",
+    "desc": "Unchecked corporate power",
+    "effects": { "ecology": -7, "cohesion": -5, "innovation": 2, "stability": -4 },
+    "variance": 2
+  },
+  {
+    "id": "renewable-cities",
+    "title": "Green Cities",
+    "desc": "Build sustainable urban centers",
+    "effects": { "ecology": 8, "cohesion": 6, "innovation": 5, "stability": 4 },
+    "variance": 2
+  },
+  {
+    "id": "information-warfare",
+    "title": "Information Warfare",
+    "desc": "Misinformation spreads rapidly",
+    "effects": { "ecology": -2, "cohesion": -7, "innovation": -3, "stability": -6 },
+    "variance": 2
+  },
+  {
+    "id": "renewable-agriculture",
+    "title": "Regenerative Agriculture",
+    "desc": "Restore soil and ecosystems",
+    "effects": { "ecology": 9, "cohesion": 4, "innovation": 4, "stability": 3 },
+    "variance": 2
+  },
+  {
+    "id": "authoritarian-regime",
+    "title": "Authoritarian Regime",
+    "desc": "Authoritarian government takes control",
+    "effects": { "ecology": -4, "cohesion": -6, "innovation": -5, "stability": -3 },
+    "variance": 2
+  },
+  {
+    "id": "resource-depletion",
+    "title": "Resource Depletion",
+    "desc": "Critical resources run out",
+    "effects": { "ecology": -9, "cohesion": -4, "innovation": -2, "stability": -6 },
+    "variance": 2
+  },
+  {
+    "id": "mass-extinction",
+    "title": "Mass Extinction",
+    "desc": "Species disappear rapidly",
+    "effects": { "ecology": -10, "cohesion": -3, "innovation": -1, "stability": -4 },
+    "variance": 2
+  },
+  {
+    "id": "systemic-collapse",
+    "title": "Systemic Collapse",
+    "desc": "Multiple systems fail simultaneously",
+    "effects": { "ecology": -8, "cohesion": -9, "innovation": -4, "stability": -9 },
+    "variance": 2
+  }
+]
