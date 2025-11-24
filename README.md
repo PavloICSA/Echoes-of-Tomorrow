@@ -4,7 +4,7 @@ A web-based strategy game where you assume the role of the Future, sending Echo 
 
 ## Overview
 
-Guide four civilization variables—**Ecology**, **Cohesion**, **Innovation**, and **Stability**—toward victory or away from collapse. Each turn, you select one of three Echo Cards to apply effects to these variables. Reach victory by maintaining all variables ≥80 for five consecutive turns, or face collapse if any variable drops to ≤5.
+Guide four civilization variables - **Ecology**, **Cohesion**, **Innovation**, and **Stability** - toward victory or away from collapse. Each turn, you select one of three Echo Cards to apply effects to these variables. Reach victory by maintaining all variables ≥80 for five consecutive turns, or face collapse if any variable drops to ≤5.
 
 The entire experience is powered by procedurally-generated visuals that evolve in real-time based on civilization state, with no external assets required.
 
@@ -21,6 +21,9 @@ python -m http.server 8000
 ```
 
 Then visit `http://localhost:8000` in your browser.
+
+### Option 3: Try it Online
+Simply follow the [link](https://echoes-of-tomorrow.netlify.app/).
 
 ### Requirements
 - Modern browser with WebGL support
@@ -136,7 +139,6 @@ echoes-of-tomorrow-web/
 │   └── fragment.glsl       # Procedural visualization shader
 ├── README.md               # This file
 ├── LICENSE                 # MIT license
-└── demo_instructions.txt   # Trailer recording guide
 ```
 
 ### Key Technologies
@@ -201,3 +203,4 @@ Built with vanilla JavaScript, Three.js, and GLSL shaders. No external assets re
 ---
 
 **Play Echoes of Tomorrow and shape the future!**
+
